@@ -5,7 +5,7 @@ O objetivo deste desafio é criar um projeto React que contenha duas páginas: u
 
 Na página de listagem de veículos, será necessário utilizar a biblioteca do mapa, como o Leaflet ou Google Maps API, para exibir um mapa com a localização de cada veículo da lista.
 
-Além disso, a lista de veículos deve estar ordenada pelo mais próximo da localização do usuário. Na página de cadastro de veículos, será necessário criar um formulário para inserir as informações básicas e a localização do veículo. 
+Além disso, a lista de veículos deve estar ordenada pela localização mais próxima do usuário. Na página de cadastro de veículos, será necessário criar um formulário para inserir as informações básicas e a localização do veículo. 
 
 O design do projeto fica à escolha do desenvolvedor do teste. Use sua criatividade e mostre suas habilidades em React, API e testes automatizados neste desafio!
 
@@ -13,11 +13,11 @@ O design do projeto fica à escolha do desenvolvedor do teste. Use sua criativid
 1. Crie 2 páginas em React: Uma para listagem de veículos e outra página de cadastro de veículos. 🚗📝
 
 2. Na página de listagem de veículos, utilize a biblioteca do mapa, como o Leaflet ou Google Maps API para exibir um mapa e colocar um pin em cada localização de veículos na lista. 🗺️
-    - A tela de listagem deve conter uma lista de veículos ordenada pelo mais próximo da localização do usuário (web).
+    - A tela de listagem deve conter uma lista de veículos deve estar ordenada pela localização mais próxima do usuário (web).
     - Além da listagem, deve conter um mapa com as informações solicitadas.
 
 3. Na página de cadastro de veículos, crie um formulário que permita ao usuário inserir as informações básicas e a localização do veículo.
-- Exemplo:
+   - Exemplo:
 ```json
 {
     identifier: 'Vehicle 1',
@@ -29,13 +29,11 @@ O design do projeto fica à escolha do desenvolvedor do teste. Use sua criativid
     } 
 }
 ```
-- Obs: 
-
 
 4. Crie teste usando o Jest, React Testing Library ou Cypress para garantir que:
-- A listagem de veículos seja renderizada corretamente com o mapa. 🧭
-- O formulário de cadastro de veículos esteja funcionando perfeitamente. ✅
-- A Fake API esteja respondendo corretamente. 📡
+   - A listagem de veículos seja renderizada corretamente com o mapa. 🧭
+   - O formulário de cadastro de veículos esteja funcionando perfeitamente. ✅
+   - A Fake API esteja respondendo corretamente. 📡
 
 ## Iniciando o Projeto 🚀
 - Certifique-se de ter o Node.js instalado em sua máquina.
@@ -57,6 +55,12 @@ Crie um fork deste repositório e desenvolva nele. Quando finalizar, envie um pu
     - Rotas: React-router-dom.
 
 - Caso deseje adicionar mais campos para o veículo como uma imagem entre outros, fique à vontade. Isso será visto como bônus. 🏎️💻
+
+#### Mirage JS:
+```json 
+    GET:  /api/vehicles
+    POST: /api/vehicle
+```
 
 ## Dicas 💡
 

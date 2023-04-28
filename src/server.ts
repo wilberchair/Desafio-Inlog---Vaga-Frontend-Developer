@@ -27,7 +27,7 @@ export function makeServer({ environment = "test" } = {}) {
         return schema.all("vehicle");
       });
 
-      this.post("/vehicles", (schema, request) => {
+      this.post("/vehicle", (schema, request) => {
         const attrs = JSON.parse(request.requestBody);
         return schema.create("vehicle", attrs);
       });
