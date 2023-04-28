@@ -10,15 +10,13 @@ Além disso, a lista de veículos deve estar ordenada pelo mais próximo da loca
 O design do projeto fica à escolha do desenvolvedor do teste. Use sua criatividade e mostre suas habilidades em React, API e testes automatizados neste desafio!
 
 ## Instruções 📝
-1. Crie um projeto React usando o create-react-app ou uma ferramenta semelhante. 🌟
+1. Crie 2 páginas em React: Uma para listagem de veículos e outra página de cadastro de veículos. 🚗📝
 
-2. Crie 2 páginas em React: Uma para listagem de veículos e outra página de cadastro de veículos. 🚗📝
-
-3. Na página de listagem de veículos, utilize a biblioteca do mapa, como o Leaflet ou Google Maps API para exibir um mapa e colocar um pin em cada localização de veículos na lista. 🗺️
+2. Na página de listagem de veículos, utilize a biblioteca do mapa, como o Leaflet ou Google Maps API para exibir um mapa e colocar um pin em cada localização de veículos na lista. 🗺️
     - A tela de listagem deve conter uma lista de veículos ordenada pelo mais próximo da localização do usuário (web).
     - Além da listagem, deve conter um mapa com as informações solicitadas.
 
-4. Na página de cadastro de veículos, crie um formulário que permita ao usuário inserir as informações básicas e a localização do veículo.
+3. Na página de cadastro de veículos, crie um formulário que permita ao usuário inserir as informações básicas e a localização do veículo.
 - Exemplo:
 ```json
 {
@@ -34,7 +32,7 @@ O design do projeto fica à escolha do desenvolvedor do teste. Use sua criativid
 - Obs: 
 
 
-5. Crie teste usando o Jest, React Testing Library ou Cypress para garantir que:
+4. Crie teste usando o Jest, React Testing Library ou Cypress para garantir que:
 - A listagem de veículos seja renderizada corretamente com o mapa. 🧭
 - O formulário de cadastro de veículos esteja funcionando perfeitamente. ✅
 - A Fake API esteja respondendo corretamente. 📡
@@ -52,7 +50,7 @@ O design do projeto fica à escolha do desenvolvedor do teste. Use sua criativid
 
 Crie um fork deste repositório e desenvolva nele. Quando finalizar, envie um pull request com a sua solução.
 
-#### Observações:
+#### Observações:🌟
 - Você pode utilizar bibliotecas externas para ajudar no desenvolvimento do projeto, tais como:
     - Validadores: react-hook-form, yup, formik entre outros.
     - Componentes: Material-UI, Chakra-ui entre outros.
