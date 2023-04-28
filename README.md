@@ -39,6 +39,19 @@ O design do projeto fica à escolha do desenvolvedor do teste. Use sua criativid
 - O formulário de cadastro de veículos esteja funcionando perfeitamente. ✅
 - A Fake API esteja respondendo corretamente. 📡
 
+## Iniciando o Projeto 🚀
+- Certifique-se de ter o Node.js instalado em sua máquina.
+- Clone este repositório usando o comando git clone https://github.com/weareinlog/Desafio-Inlog---Vaga-Frontend-Developer.
+- Acesse a pasta do projeto usando o comando cd nome-da-pasta.
+- Instale as dependências do projeto usando o comando npm install.
+- Execute o projeto usando o comando npm start.
+- Acesse o projeto em seu navegador através da url http://localhost:3000.
+
+
+## Como entregar 📨
+
+Crie um fork deste repositório e desenvolva nele. Quando finalizar, envie um pull request com a sua solução.
+
 #### Observações:
 - Você pode utilizar bibliotecas externas para ajudar no desenvolvimento do projeto, tais como:
     - Validadores: react-hook-form, yup, formik entre outros.
@@ -46,12 +59,6 @@ O design do projeto fica à escolha do desenvolvedor do teste. Use sua criativid
     - Rotas: React-router-dom.
 
 - Caso deseje adicionar mais campos para o veículo como uma imagem entre outros, fique à vontade. Isso será visto como bônus. 🏎️💻
-
-
-
-## Como entregar 📨
-
-Crie um fork deste repositório e desenvolva nele. Quando finalizar, envie um pull request com a sua solução.
 
 ## Dicas 💡
 
@@ -62,8 +69,6 @@ Crie um fork deste repositório e desenvolva nele. Quando finalizar, envie um pu
 - Utilize a biblioteca React Leaflet ou Google Maps API para exibir o mapa.
 - Teste todos os componentes criados.
 - Se quiser adicionar algum bônus, como uma busca de veículos ou um filtro de veículos, fique à vontade.
-
-
-#### Nos envie um link para download do seu código pelo email: beinlog@inlog.com.br
+- Este projeto foi criado utilizando o padrão create-react-app, que oferece uma estrutura básica para a construção de aplicativos React. Você é livre para alterar a arquitetura do projeto conforme achar melhor, adicionando ou removendo bibliotecas e componentes, criando novas pastas e arquivos, e assim por diante. Sinta-se à vontade para personalizar o projeto de acordo com as suas necessidades e preferências.
 
 ## Boa sorte!
