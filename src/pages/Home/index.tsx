@@ -34,11 +34,13 @@ export function Home() {
     VehiclesAPI.getVehicles()
       .then((response: ResponseApi) => {
         if (response.status === 500) {
-          alert('Erro de servidor')
+          alert('Erro de servidor');
+          return;
         }
 
         if (response.status === 200 && response.data) {
-          setVehicles(response.data.vehicles)
+          setVehicles(response.data.vehicles);
+          return;
         }
       })
   }
@@ -63,15 +65,21 @@ export function Home() {
           {vehicles && vehicles.length > 0 && vehicles.map((vehicle: Vehicle) => {
             return (
               <VehicleElement vehicle={vehicle} key={vehicle.identifier} />
-
             )
           })}
         </Grid>
       </Container>
-      <Container style={{ width: "100%", height: "calc(100vh - 4rem)", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div id="leaflet-map">
+      <Container 
+        style={{ 
+          width: "100%", 
+          height: "calc(100vh - 4rem)", 
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'center' 
+        }}>
+        <Container id="leaflet-map">
           <Map />
-        </div>
+        </Container>
       </Container>
     </main>
   )

@@ -65,7 +65,6 @@ export function Register() {
               </div>
               <Button variant="contained" type='submit'>Salvar</Button>
             </form>
-              {/* <Button variant="contained" onClick={() => {onSave()}}>Salvar</Button> */}
           </Stack>
         </Container>
       </Box>
